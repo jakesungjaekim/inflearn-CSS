@@ -1,0 +1,36 @@
+.container {
+    background-color: gray;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid blue;
+    box-sizing: content-box;
+    padding: 50px;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid red;
+    box-sizing: border-box;
+    padding:50px;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid green;
+    padding: 50px;
+}
+/* box-sizing의 기본값은 content-box 구나!!
+그래서 border-box를 기본값으로 설정해주는게 좋다!
+*/
+
+.text {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

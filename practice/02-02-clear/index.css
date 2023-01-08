@@ -1,0 +1,25 @@
+.box{
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-boxs;
+}
+
+.box1{
+    height: 400px;
+    background-color: red;
+    float: left;
+}
+.box2{
+    height: 200px;
+    background-color: blue;
+    float: right;
+}
+.box3{
+    /* 대부분 clear:both를 사용함 */
+    /* clear: both;  */
+}
+
+.clearfix{
+    /* 관례 */
+    clear:both
+}
