@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+/* child는 부모기준으로 형성되는 것이기 때문에 */
+/* 적용되지 않는다. */
+.container p:first-child {
+    background: red;
+}
+
+.container p:first-of-type {
+    background: blue;
+}
+
+.container p:last-of-type {
+    background-color: yellow;
+}
+
+.container p:nth-of-type(2) {
+    background-color: green;
+}
+
+.container span:first-of-type {
+    font-weight: 600;
+    text-decoration: underline;
+}
