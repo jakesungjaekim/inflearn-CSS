@@ -1,0 +1,40 @@
+* {
+    /* box-sizing: border-box; */
+    background-color: gray;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 3px solid blue;
+    padding: 50px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 3px solid red;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 3px solid green;
+    /* padding: 50px; */
+}
+
+.text {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 3px solid blue;
+    display: block;
+}
+
+/* span은 display: block을 해야 제대로 된 CSS가 작동한다. */
+/* border 또한 미세한 박스크기 차이를 만든다. */

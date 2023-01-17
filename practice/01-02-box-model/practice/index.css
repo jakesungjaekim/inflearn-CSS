@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    /* margin: 0; */
+    padding: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.box1 {
+    padding: 32px;
+    border: 1px solid blue;
+}
+.box2 {
+    border: 1px solid red;
+}
+
+
+/* padding 값을 줬을 때 box-sizing 비교해보기 */
