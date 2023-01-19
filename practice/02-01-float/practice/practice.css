@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.float-box {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+    padding: 30px;
+
+    float: right;
+}
+
+p {
+    font-size: 20px;
+    clear: right;
+}
+
+/* float 방향과 clear 방향이 맞아야 상쇄된다. */
